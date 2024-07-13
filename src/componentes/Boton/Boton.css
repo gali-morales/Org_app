@@ -1,0 +1,22 @@
+:root {
+    --color-lila: #6278F7;
+    --hover-font: #95FFD4;
+    --color-fuente: white;
+}
+
+
+.boton{
+    background-color: var(--color-lila);
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 24px 32px;
+    border: none;
+    color: var(--color-fuente);
+    margin: 32px 0;
+    cursor: pointer;
+}
+
+.boton:hover{
+    color: var(--hover-font);
+}

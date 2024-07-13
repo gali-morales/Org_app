@@ -1,0 +1,12 @@
+:root {
+    --color-lila: #6278F7;
+}
+
+.header{
+    background-color: var(--color-lila);
+    text-align: center;
+}
+
+.header img {
+    max-width: 100%;
+}

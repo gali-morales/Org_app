@@ -1,0 +1,27 @@
+:root {
+    --color-fondo-formulario: #F6F6F6;
+    --fuente-color: #212121;
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.formulario form{
+    text-align: start;
+    background-color: var(--color-fondo-formulario);
+    box-shadow: 7px 7px 15px 0px #00000031;
+    padding: 8px 100px 50px;
+    border-radius: 20px ;
+    flex: 1;
+}
+
+.formulario h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--fuente-color);
+}
